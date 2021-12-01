@@ -4,6 +4,9 @@ install: true
 jdk: openjdk11
 script: ./travis.sh
 dist: bionic
+arch:
+  - amd64
+  - s390x
 
 before_install:
   - nvm install 14
